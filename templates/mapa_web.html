@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% block title %} Mi primer mapa {% endblock %}
+{% block content%}{{nombre}}{% endblock %}
+{% block body %}
+<form method="post">
+<button type="submit">Página de inicio</button>
+</form>
+{% include "map.html" %}
+{% endblock %}

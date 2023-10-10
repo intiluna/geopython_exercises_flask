@@ -1,0 +1,29 @@
+body {
+background-color: #89e851;
+}
+header {
+padding: 30px;
+text-align: center;
+background: #1abc9c;
+color: white;
+font-size: 30px;
+}
+nav{
+padding: 20px;
+background:#FDF5E6;
+color: white;
+font-size: 30px;
+margin: 10px;
+}
+h1 {
+color: white;
+text-align: center;
+}
+a, p {
+font-family: verdana;
+font-size: 20px;
+}
+img {
+max-width: 20%;
+height: auto;
+}

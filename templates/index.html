@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% block title %} Inicio {% endblock %}
+{% block content%}{{nombre}}{% endblock %}
+
+{% block body %}
+<nav>
+<a href="{{ url_for('primer_mapa') }}">Mapa con folium</a>
+</nav>
+{% endblock %}
