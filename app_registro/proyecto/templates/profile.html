@@ -1,6 +1,11 @@
 {% extends "base.html" %}
+
 {% block content %}
 <h1 class="title">
-	Bienvenido a tu página personal.
+  
+  Bienvenid@, {{ name }} a tu página personal. 
+   
 </h1>
+<a href="{{ url_for('main.primer_mapa') }}">Acceso a mis mapas</a>  
 {% endblock %}
+
